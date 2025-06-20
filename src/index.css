@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0a;
+  color: aliceblue;
+}
+
+/* .nav {
+  background-color: #0c0c0c;
+} */
+
+.glow-text {
+  text-shadow: 0 0 400px #6f29e0, 0 0 40px #6f29e0, 0 0 40px #742ce7;
+}
+.blob1 {
+    animation: blob 20s infinite ease-in-out;
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(-50px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(50px, -50px) scale(1.2);
+  }
+  75% {
+    transform: translate(50px, 50px) scale(1.1);
+  }
+  100% {
+    transform: translate(-50px, 50px) scale(1);
+  }
+}

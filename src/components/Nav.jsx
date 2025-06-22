@@ -30,8 +30,8 @@ const Nav = () => {
         </div>
 
         {isOpen && (
-        <div className=' ' onClick={toggleMenu}>
-        <ul className="py-5 h-1/3 md:hidden bg-black px-7 pb-4 space-y-2 absolute top-[0px] right-0 w-full shadow-lg rounded-lg">
+  
+        <ul className="py-5 z-10 text-lg h-1/3 md:hidden bg-black px-7 pb-4 space-y-2 absolute top-[0px] right-0 w-full shadow-lg rounded-lg">
           <div className='w-full flex justify-end' onClick={toggleMenu}>
             <i class="bi bi-x text-3xl"></i>
           </div>
@@ -41,7 +41,7 @@ const Nav = () => {
           <li onClick={() => scrollToSection('service')}>Services</li>
           <li  onClick={() => scrollToSection('contact')}>Contact</li>
         </ul>
-        </div>
+  
       )}
 
     </div>

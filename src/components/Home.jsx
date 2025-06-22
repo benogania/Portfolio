@@ -10,12 +10,12 @@ const Home = () => {
     <div className="p-5 w-full md:mt-5 md:px-0">
       <BackgroundBlobs/>
       <div className='hidden md:flex w-96 h-60 rounded-full top-1/4 rotate-[40deg] opacity-10 bg-purple-700 blur-3xl z-[-3] fixed'></div>
-      <div className=' w-96 h-60 rounded-full  right-0 top-1/4 rotate-[60deg] opacity-10 bg-purple-700 blur-3xl z-[-3] fixed'></div>
+      <div className='w-96 h-60 rounded-full  right-0 top-1/4 rotate-[60deg] opacity-10 bg-purple-700 blur-3xl z-[-3] fixed'></div>
     <div className="w-full flex justify-center place-items-center  h-[80vh] max-h-[650px]">
     
       <div className="w-full flex flex-col place-items-center">
         <FadeInSection>
-        <div className="hidden md:flex justify-center place-items-center  mb-8 glow-text rounded-full">
+        <div className="hidden md:flex justify-center place-items-center mb-8 glow-text rounded-full">
           <i className="bi bi-code-slash text-5xl bg-gradient-to-r from-[#6f29e0] via-[#7232da] to-purple-600 bg-clip-text text-transparent"></i>
         </div> 
         </FadeInSection>
@@ -28,7 +28,7 @@ const Home = () => {
         <TypingEffect />
         <FadeInSection>
           <p className="mt-5 md:text-2xl opacity-80">
-            I'm a passionate developer specializing in creating beautiful and
+            I'm a FullStack developer specializing in creating beautiful and
             functional web <span className="bg-gradient-to-r from-purple-500 via-purple-400 to-purple-500 bg-clip-text text-transparent">experiences.</span>
           </p>
           </FadeInSection>

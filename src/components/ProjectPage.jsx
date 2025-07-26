@@ -7,7 +7,7 @@ const ProjectPage = () => {
         <p className='text-2xl text-center font-bold'>
             The Page is not available yet.
         </p>
-        <p>Hubsak it Developer. thank you!</p>
+        <p>Thank you!</p>
         
         <button className='ml-4 mt-8 text-purple-500 hover:underline'>
             <Link to="/">Go Back Home</Link>

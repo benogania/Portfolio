@@ -17,7 +17,7 @@ const Project = () => {
         </p>
       </FadeInSection>
       <FadeInSection>
-        <p className="text-center text-lg md:text-2xl md:w-1/2">
+        <p className="text-center opacity-75 text-lg md:text-2xl md:w-1/2">
           Here are some of my recent projects that showcase my skills and
           expertise.
         </p>
@@ -27,7 +27,7 @@ const Project = () => {
         <div className="grid h-full w-fit lg:w-[60%] md:w-[80%] xl:w-[70%] mt-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-5">
           <FadeInSection>
             <div className="bg-black w-[290px] h-[430px] hover:w-[300px] hover:h-[440px] overflow-hidden rounded-2xl hover:shadow-[0_0_10px_#6025be] transition-all duration-300">
-              <div className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url('/projects/youtube.jpg')] bg-cover bg-cente">
+              <div className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url('/projects/youtube.jpg')] bg-cover bg-center">
                 <div className="w-[160%] h-1/2 bg-black absolute bottom-[-60px] left-0 right-0 blur-3xl"></div>
               </div>
               <div className="w-full h-full flex flex-col p-5 gap-2 pb-10">
@@ -71,7 +71,7 @@ const Project = () => {
 
           <FadeInSection>
             <div className="bg-black w-[290px] h-[430px] hover:w-[300px] hover:h-[440px] overflow-hidden rounded-2xl hover:shadow-[0_0_10px_#6025be] transition-all duration-300">
-              <div className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url('/projects/ecom1.jpg')] bg-cover bg-cente">
+              <div className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url('/projects/ecom1.jpg')] bg-cover bg-center">
                 <div className="w-[160%] h-1/2 bg-violet-800 absolute bottom-[-60px] left-0 right-0 blur-3xl"></div>
               </div>
               <div className="w-full h-full flex flex-col p-5 gap-2 pb-10">
@@ -89,16 +89,12 @@ const Project = () => {
                   </div>
                 </div>
                 <div className="mt-3 flex gap-2 justify-between text-purple-700">
-                  <a
-                    href="https://gadgyshop.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  
                     <div className="flex gap-2">
                       <i class="bi bi-box-arrow-up-right"></i>
                       <div>Live Demo</div>
                     </div>
-                  </a>
+  
                   <a href="https://github.com/benogania/Gadget.git">
                     <div className="flex gap-2">
                       <i class="bi bi-github"></i>
@@ -112,7 +108,7 @@ const Project = () => {
 
           <FadeInSection>
             <div className="bg-black w-[290px] h-[430px] hover:w-[300px] hover:h-[440px] overflow-hidden rounded-2xl hover:shadow-[0_0_10px_#6025be] transition-all duration-300">
-              <div className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url('/projects/speedtest.png')] bg-cover bg-cente">
+              <div className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url('/projects/speedtest.png')] bg-cover bg-center">
                 <div className="w-[160%] h-1/2 absolute bg-purple-800  opacity-60 bottom-[-60px] left-0 right-0 blur-3xl"></div>
               </div>
               <div className="w-full h-full flex flex-col p-5 gap-2 pb-10">

@@ -5,11 +5,11 @@ const Service = () => {
     <div id="service" className="w-full flex flex-col items-center justify-center gap-5 mt-20  ">
       <FadeInSection>
         <p className="text-3xl font-bold  ">
-          Service I <span className="text-purple-700">Offer</span>
+          Service
         </p>
       </FadeInSection>
       <FadeInSection>
-        <p className=" text-lg md:text-xl text-center w-[90%] md:w-1/2">
+        <p className=" text-lg opacity-80 md:text-xl text-center w-[90%] md:w-1/2">
           Here are the services I offer, including web development, UI/UX
           design, backend integration, and Mobile development.{" "}
         </p>

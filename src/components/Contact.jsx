@@ -2,14 +2,14 @@ import React from 'react'
 import FadeInSection from './FadeInSection'
 const Contact = () => {
   return (
-    <div id='contact' className='w-full flex flex-col items-center justify-center gap-5 mt-24 p-5 '>
+    <div id='contact' className='w-full flex flex-col items-center justify-center gap-5 mt-28 p-5 md:pt-32'>
         <div className=' w-96 h-60 rounded-full  rotate-[40deg] opacity-10 bg-purple-700 blur-3xl z-[-3] fixed'></div>
 
         <FadeInSection>
         <p className='font-bold text-3xl'>Get In <span className=' bg-gradient-to-r from-purple-500 to-purple-600 bg-clip-text text-transparent'>Touch</span></p>
         </FadeInSection>
         <FadeInSection>
-        <p className='text-center text-xl'>Have a project in mind or want to collaborate? Feel free to reach out to me.</p>
+        <p className='text-center text-xl opacity-80'>Have a project in mind or want to collaborate? Feel free to reach out to me.</p>
         </FadeInSection>
 
         <div className='w-full flex flex-col mt-9 md:flex-row justify-center place-items-center md:place-items-start  gap-10 px-5'>

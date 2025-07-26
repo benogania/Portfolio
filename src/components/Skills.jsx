@@ -12,7 +12,7 @@ const Skills = () => {
         </p>
       </FadeInSection>
       <FadeInSection>
-        <p className="text-center text-lg md:w-1/2 md:text-xl">
+        <p className="text-center opacity-80 text-lg md:w-1/2 md:text-xl">
           I've worked with a variety of technologies and frameworks to create
           amazing digital experiences.
         </p>

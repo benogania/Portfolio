@@ -1,27 +1,24 @@
-import React from "react";
-import FadeInSection from "./FadeInSection";
+import React from 'react'
+import FadeInSection from './FadeInSection'
+
 const About = () => {
   return (
-    <div className="w-full px-3 bg-[#0a0a0a] p-20   flex justify-center items-center flex-col text-center gap-10 mt-10  md:gap-20">
-      <FadeInSection>
-        <div className="flex md:w-1/2  flex-col justify-center text-center gap-5">
-          <p className="font-bold text-3xl md:text-4xl ">
-            Hi, I'm Benjun <span className="bg-gradient-to-r from-[#6f29e0] via-purple-500 to-purple-700 bg-clip-text text-transparent">Ogania</span>
-          </p>
-          <p className="text-lg opacity-80 md:text-2xl">
-            I'm a Web developer With a foundation knowladge in frontend and
-            basic understanding in backend development
-          </p>
+    <FadeInSection>
+    <div className='w-full flex justify-center place-items-center mt-20  hover:opacity-90'>
+      <div className='w-full md:rounded-2xl flex flex-col p-5 py-10 border-t border-slate-900 md:flex-row items-center md:w-[60%]  md:h-80 overflow-hidden bg-black  md:p-10'>
+      <div className='w-full md:w-1/2 flex justify-center items-center'>
+        <div className="w-full rounded-lg h-48 md:w-48 filter  grayscale-25 md:rounded-full overflow-hidden flex justify-center items-center bg-[url('/photo.jpg')] bg-cover bg-center md:border md:border-purple-900">
         </div>
-      </FadeInSection>
-      <FadeInSection>
-      <div className="overflow-hidden flex flex-col relative justify-center h-fit ">
-        <div className="absolute w-full h-1/2 bg-black bottom-[-50%] blur-3xl"></div>
-        <img src="./photo.jpg" className="md:h-[400px] rounded-lg  object-contain" />
       </div>
-      </FadeInSection>
+      
+      <div className='w-full mt-5 '>
+        <p className='text-2xl font-bold text-center md:text-left'> <span className='text-purple-500'>About </span>Me</p>
+        <p className='text-lg md:text-xl mt-3 opacity-70 text-left'>I'm a second-year Computer Science student with nearly three years of hands-on coding experience. While I may not have formal work experience yet, I've built a strong foundation in front-end  and basic understanding in backend development and continue to grow my skills through personal projects and continuous learning.</p>
+      </div>
+      </div>
     </div>
-  );
-};
+    </FadeInSection>
+  )
+}
 
-export default About;
+export default About

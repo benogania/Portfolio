@@ -3,6 +3,11 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      grayscale: {
+        25: '25%',
+        50: '50%',
+        75: '75%',
+      },
       animation: {
         blob1: 'blob 20s infinite ease-in-out',
         blob2: 'blob 25s infinite ease-in-out',

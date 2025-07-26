@@ -3,17 +3,18 @@ import TypingEffect from "./TypingEffect";
 import BackgroundBlobs from "./background";
 import FadeInSection from "./FadeInSection";
 import Project from "./Project";
+import About from "./About";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="p-5 w-full md:mt-5 md:px-0">
+    <div className="w-full md:mt-5 md:px-0">
       <BackgroundBlobs/>
       <div className='hidden md:flex w-96 h-60 rounded-full top-1/4 rotate-[40deg] opacity-10 bg-purple-700 blur-3xl z-[-3] fixed'></div>
       <div className='w-96 h-60 rounded-full  right-0 top-1/4 rotate-[60deg] opacity-10 bg-purple-700 blur-3xl z-[-3] fixed'></div>
     <div className="w-full flex justify-center place-items-center  h-[80vh] max-h-[650px]">
     
-      <div className="w-full flex flex-col place-items-center">
+      <div className="w-full flex flex-col place-items-center p-5">
         <FadeInSection>
         <div className="hidden md:flex justify-center place-items-center mb-8 glow-text rounded-full">
           <i className="bi bi-code-slash text-5xl bg-gradient-to-r from-[#6f29e0] via-[#7232da] to-purple-600 bg-clip-text text-transparent"></i>
@@ -39,9 +40,10 @@ const Home = () => {
           <Link to="/projects">
             <button className=" w-[300px] md:w-[200px] py-2 bg-gradient-to-r from-[#6f29e0] to-purple-600 rounded-full hover:shadow-[0_0_10px_#6025be]"><i class="bi bi-eye-fill px-2"></i>View My Work</button>
           </Link>
-
-            <button onClick={()=>alert('Wara paak resume hehe')} className=" w-[300px] md:w-[200px]  py-2 border-[1px] border-[#6f29e0]  text-purple-400 rounded-full hover:shadow-[0_0_10px_#6025be] bg-gradient-to-r from-[#6f29e0] via-purple-500 to-purple-600 bg-clip-text text-transparent"> <i class="bi bi-file-earmark-arrow-down-fill px-2"></i>Resume</button>
           
+          <a href="./resume.docx" target="_blank" rel="noopener noreferrer">
+            <button className=" w-[300px] md:w-[200px]  py-2 border-[1px] border-[#6f29e0]  text-purple-400 rounded-full hover:shadow-[0_0_10px_#6025be] bg-gradient-to-r from-[#6f29e0] via-purple-500 to-purple-600 bg-clip-text text-transparent"> <i class="bi bi-file-earmark-arrow-down-fill px-2"></i>Resume</button>
+          </a>
         </div>
 
         <div className="flex flex-col justify-center place-items-center mt-10 ">

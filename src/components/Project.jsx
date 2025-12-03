@@ -2,7 +2,7 @@ import React from "react";
 import BackgroundBlobs from "./background";
 import FadeInSection from "./FadeInSection";
 import { Link } from "react-router-dom";
-import Card from "./card";
+import Card from "./Card";
 
 const Project = () => {
   return (

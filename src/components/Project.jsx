@@ -29,7 +29,7 @@ const Project = () => {
         <div className="grid h-full w-fit lg:w-[60%] md:w-[80%] xl:w-[70%] mt-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-5">
           {/* project cards  */}
           <Card
-            bg={"'/projects/youtube.jpg'"}
+            bg="/projects/youtube.jpg"
             name={"Youtube Downloader"}
             discreption={
               "A Simple app that Downloads YouTube high quality videos quickly and easily."
@@ -40,7 +40,7 @@ const Project = () => {
           />
 
           <Card
-            bg="'/projects/ecom1.jpg'"
+            bg="/projects/ecom1.jpg"
             name="E-Commerce Website"
             discreption={
               "A fully responsive e-commerce platform with cart functionality and modern UI design."
@@ -51,7 +51,7 @@ const Project = () => {
           />
 
           <Card
-          bg={"'/projects/speedtest.png'"}
+            bg="/projects/speedtest.png"
             name="Speed Typing Test"
             discreption={
               "A simple and easy-to-use website that test and track your typing speed."

@@ -1,12 +1,14 @@
 import React from "react";
 import FadeInSection from "./FadeInSection";
 
-const Card = ({ bg,name, discreption, techno = [], liveLink, sourceCode }) => {
+const Card = ({ bg, name, discreption, techno = [], liveLink, sourceCode }) => {
   return (
-    
     <FadeInSection>
       <div className="bg-black w-[290px] h-[430px] hover:w-[300px] hover:h-[440px] overflow-hidden rounded-2xl hover:shadow-[0_0_10px_#6025be] transition-all duration-300">
-        <div className={`w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-[url(${bg})] bg-cover bg-center`}>
+        <div
+          className="w-full h-[40%] flex justify-center relative overflow-hidden items-center bg-cover bg-center"
+          style={{ backgroundImage: `url(${bg})` }}
+        >
           <div className="w-[160%] h-1/2 bg-violet-800 absolute bottom-[-60px] left-0 right-0 blur-3xl"></div>
         </div>
 
